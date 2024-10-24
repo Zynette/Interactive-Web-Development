@@ -1,0 +1,53 @@
+/*Antonette Petallo, 000900501*/
+
+body {
+    background-color: #f8f9fa;
+    background-image: url("clouds.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: cursive;
+    font-weight: bold;
+    color: rgb(112, 61, 61);
+}
+
+textarea {
+    resize: none;
+}
+
+.gay {
+    color: saddlebrown;
+    font-size: 1rem;
+    text-shadow: pink 2px 2px 0;
+}
+
+.gay:active {
+    color: saddlebrown;
+    text-shadow: pink 2px 2px 0;
+    font-size: 1rem
+}
+
+.gay::before {
+    color: saddlebrown;
+    text-shadow: pink 2px 3px 0;
+}
+
+img {
+    position: flex;
+    float: right;
+    width: 20%;
+}
+
+.left img {
+    position: flex;
+    float: left;
+    width: 10%;
+}
+.form-control {
+    background-color: #eedddd;
+    border: 1px solid #325c83;
+    border-radius: 4px;
+}
